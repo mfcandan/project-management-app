@@ -17,7 +17,7 @@ const store = createStore(rootReducer,
     reactReduxFirebase(fbConfig), // redux binding for firebase
     reduxFirestore(fbConfig) // redux bindings for firestore
   )
-);
+); 
 
 ReactDOM.render(
   <React.StrictMode>
